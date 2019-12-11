@@ -54,7 +54,7 @@ public class BookService {
             default:
                 throw new IllegalArgumentException();
         }
-        return book;
+        return bookRepo.save(book);
     }
 
     public Book deleteBookFromList(Long bookId, Long userId, String type) {

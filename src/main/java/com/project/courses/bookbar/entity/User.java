@@ -1,14 +1,16 @@
 package com.project.courses.bookbar.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @Data
 @Entity
-@Table(name ="USER")
+@Table(name ="user")
 public class User {
 
     @Id
@@ -18,6 +20,24 @@ public class User {
 
     @Column(name ="login")
     private String login;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) &&
+                Objects.equals(login, user.login) &&
+                Objects.equals(password, user.password) &&
+                Objects.equals(fname, user.fname) &&
+                Objects.equals(lname, user.lname) &&
+                Objects.equals(role, user.role);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, login, password, fname, lname, role);
+    }
 
     @Column(name ="password")
     private String password;
@@ -33,20 +53,22 @@ public class User {
     private Role role;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "HAVEREAD_USER_BOOKS",
-            joinColumns = {@JoinColumn(name = "user_id", nullable = false, updatable = false)},
-            inverseJoinColumns = {@JoinColumn(name = "book_id", nullable = false, updatable = false)})
+    @JoinTable(name = "haveread_user_books",
+            joinColumns = {@JoinColumn(name = "user_id")},
+            inverseJoinColumns = {@JoinColumn(name = "book_id")})
     private Set<Book> readBooks = new HashSet<>();
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "WANTREAD_USER_BOOKS",
-            joinColumns = {@JoinColumn(name = "user_id", nullable = false, updatable = false)},
-            inverseJoinColumns = {@JoinColumn(name = "book_id", nullable = false, updatable = false)})
+    @JoinTable(name = "wantread_user_books",
+            joinColumns = {@JoinColumn(name = "user_id")},
+            inverseJoinColumns = {@JoinColumn(name = "book_id")})
     private Set<Book> wantToReadBooks = new HashSet<>();
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "WANTBUY_USER_BOOKS",
-            joinColumns = {@JoinColumn(name = "user_id", nullable = false, updatable = false)},
-            inverseJoinColumns = {@JoinColumn(name = "book_id", nullable = false, updatable = false)})
+    @JoinTable(name = "wantbuy_user_books",
+            joinColumns = {@JoinColumn(name = "user_id")},
+            inverseJoinColumns = {@JoinColumn(name = "book_id")})
     private Set<Book> wantToBuyBooks = new HashSet<>();
+
+
 }

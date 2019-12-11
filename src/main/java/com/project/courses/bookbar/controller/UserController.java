@@ -41,15 +41,15 @@ public class UserController {
         return ResponseEntity.ok(books);
     }
 
-    @GetMapping("/{userId}/books/to-buy")
+   @GetMapping("/{userId}/books/to-buy")
     public ResponseEntity<Set<Book>> findAllBooksToBuy(@PathVariable("userId") Long id) {
         Set<Book> books = userService.findBooksToBuy(id);
-        return ResponseEntity.ok(books);
+       return ResponseEntity.ok(books);
     }
 
-    @GetMapping("/{userId}/books/to-read")
+   @GetMapping("/{userId}/books/to-read")
     public ResponseEntity<Set<Book>> findAllBooksToRead(@PathVariable("userId") Long id) {
-        Set<Book> books = userService.findBooksToBuy(id);
-        return ResponseEntity.ok(books);
+       Set<Book> books = userService.findBooksToBuy(id);
+      return ResponseEntity.ok(books);
     }
 }

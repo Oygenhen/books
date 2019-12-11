@@ -1,17 +1,16 @@
 package com.project.courses.bookbar.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
-import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @Data
 @Entity
-@Table(name = "BOOK")
+@Table(name = "book")
 @JsonIgnoreProperties({"usersRead","usersWantToRead", "usersWantToBuy"})
 public class Book {
 
@@ -42,5 +41,20 @@ public class Book {
 
     public void delete(Set<User> users, User user) {
         users.remove(user);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return Objects.equals(id, book.id) &&
+                Objects.equals(name, book.name) &&
+                Objects.equals(author, book.author);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, author);
     }
 }

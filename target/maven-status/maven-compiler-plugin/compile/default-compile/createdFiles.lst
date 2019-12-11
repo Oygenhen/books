@@ -1,0 +1,17 @@
+com\project\courses\bookbar\dto\AuthenticationRequestDto.class
+com\project\courses\bookbar\service\BookService.class
+com\project\courses\bookbar\entity\User.class
+com\project\courses\bookbar\service\UserService.class
+com\project\courses\bookbar\repo\RoleRepo.class
+com\project\courses\bookbar\entity\Role.class
+com\project\courses\bookbar\repo\BookRepo.class
+com\project\courses\bookbar\controller\BookController.class
+com\project\courses\bookbar\controller\UserController.class
+com\project\courses\bookbar\Application.class
+com\project\courses\bookbar\entity\Book.class
+com\project\courses\bookbar\entity\Author.class
+com\project\courses\bookbar\repo\AuthorRepo.class
+com\project\courses\bookbar\repo\UserRepo.class
+com\project\courses\bookbar\controller\AuthorController.class
+com\project\courses\bookbar\service\RoleService.class
+com\project\courses\bookbar\service\AuthorService.class

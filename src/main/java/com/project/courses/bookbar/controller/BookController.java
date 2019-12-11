@@ -43,7 +43,7 @@ public class BookController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Book> update(@PathVariable("id") Long id) {
+    public ResponseEntity<Book> delete(@PathVariable("id") Long id) {
         Book deletedBook = bookService.findById(id).orElseThrow(EntityNotFoundException::new);
         bookService.delete(deletedBook);
         return ResponseEntity.notFound().build();
