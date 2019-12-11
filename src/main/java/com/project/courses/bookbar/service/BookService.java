@@ -44,12 +44,15 @@ public class BookService {
         switch (type) {
             case "to-buy":
                 book.add(book.getUsersWantToBuy(), user);
+                user.add(user.getWantToBuyBooks(), book);
                 break;
             case "to-read":
                 book.add(book.getUsersWantToRead(), user);
+                user.add(user.getWantToReadBooks(), book);
                 break;
             case "read":
                 book.add(book.getUsersRead(), user);
+                user.add(user.getReadBooks(), book);
                 break;
             default:
                 throw new IllegalArgumentException();
@@ -63,16 +66,19 @@ public class BookService {
         switch (type) {
             case "to-buy":
                 book.delete(book.getUsersWantToBuy(), user);
+                user.delete(user.getWantToBuyBooks(), book);
                 break;
             case "to-read":
                 book.delete(book.getUsersWantToRead(), user);
+                user.delete(user.getWantToReadBooks(),book);
                 break;
             case "read":
                 book.delete(book.getUsersRead(), user);
+                user.delete(user.getReadBooks(),book);
                 break;
             default:
                 throw new IllegalArgumentException();
         }
-        return book;
+        return bookRepo.save(book);
     }
 }

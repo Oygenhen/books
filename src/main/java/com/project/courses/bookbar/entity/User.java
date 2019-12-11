@@ -1,14 +1,15 @@
 package com.project.courses.bookbar.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @Entity
 @Table(name ="user")
 public class User {
@@ -70,5 +71,11 @@ public class User {
             inverseJoinColumns = {@JoinColumn(name = "book_id")})
     private Set<Book> wantToBuyBooks = new HashSet<>();
 
+    public void add(Set<Book> books, Book book) {
+       books.add(book);
+    }
 
+    public void delete(Set<Book> books, Book book) {
+        books.remove(book);
+    }
 }

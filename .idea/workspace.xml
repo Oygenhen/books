@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a37a477b-bd79-4a25-9aaa-1e5d253b8d1d" name="Default Changelist" comment="fix user">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mybookbar.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/controller/BookController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Author.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/model/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/model/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/model/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/courses/bookbar/service/BookService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,12 +143,23 @@
       <workItem from="1576061792106" duration="47000" />
       <workItem from="1576061864239" duration="994000" />
       <workItem from="1576065888585" duration="225000" />
-      <workItem from="1576066300379" duration="12412000" />
+      <workItem from="1576066300379" duration="18342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix user" />
@@ -204,58 +194,62 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="393" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1576080859680" />
+    <state width="401" height="438" key="DebuggerActiveHint" timestamp="1576084434063">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="401" height="438" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1576084434063" />
     <state x="549" y="186" key="FileChooserDialogImpl" timestamp="1576061842398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576061842398" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1576081177527">
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom" timestamp="1576089038529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576081177527" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1576081177527">
+    <state width="1493" height="376" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576089038529" />
+    <state width="1493" height="376" key="GridCell.Tab.0.center" timestamp="1576089038529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576081177527" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1576081177527">
+    <state width="1493" height="376" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576089038529" />
+    <state width="1493" height="376" key="GridCell.Tab.0.left" timestamp="1576089038529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576081177527" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1576081177527">
+    <state width="1493" height="376" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576089038529" />
+    <state width="1493" height="376" key="GridCell.Tab.0.right" timestamp="1576089038529">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576081177527" />
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1576081177360">
+    <state width="1493" height="376" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576089038529" />
+    <state width="1493" height="185" key="GridCell.Tab.1.bottom" timestamp="1576089038292">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576081177360" />
-    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1576081177359">
+    <state width="1493" height="185" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576089038292" />
+    <state width="1493" height="185" key="GridCell.Tab.1.center" timestamp="1576089038292">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576081177359" />
-    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1576081177359">
+    <state width="1493" height="185" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576089038292" />
+    <state width="1493" height="185" key="GridCell.Tab.1.left" timestamp="1576089038292">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576081177359" />
-    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1576081177359">
+    <state width="1493" height="185" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576089038292" />
+    <state width="1493" height="185" key="GridCell.Tab.1.right" timestamp="1576089038292">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576081177359" />
-    <state width="1493" height="220" key="GridCell.Tab.2.bottom" timestamp="1576081177360">
+    <state width="1493" height="185" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576089038292" />
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom" timestamp="1576089038274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576081177360" />
-    <state width="1493" height="220" key="GridCell.Tab.2.center" timestamp="1576081177360">
+    <state width="1493" height="377" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576089038274" />
+    <state width="1493" height="377" key="GridCell.Tab.2.center" timestamp="1576089038274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576081177360" />
-    <state width="1493" height="220" key="GridCell.Tab.2.left" timestamp="1576081177360">
+    <state width="1493" height="377" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576089038274" />
+    <state width="1493" height="377" key="GridCell.Tab.2.left" timestamp="1576089038274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576081177360" />
-    <state width="1493" height="220" key="GridCell.Tab.2.right" timestamp="1576081177360">
+    <state width="1493" height="377" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576089038274" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right" timestamp="1576089038274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576081177360" />
+    <state width="1493" height="377" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576089038274" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1575471739073">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -280,5 +274,16 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="209" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1576061882704" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/courses/bookbar/service/BookService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
