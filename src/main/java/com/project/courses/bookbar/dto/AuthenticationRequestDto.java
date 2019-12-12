@@ -7,5 +7,4 @@ public class AuthenticationRequestDto {
     private String username;
     private String password;
 
-
 }
