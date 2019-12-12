@@ -16,7 +16,7 @@ import java.util.Set;
 
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping(value = "/api/user")
 @RequiredArgsConstructor
 public class UserController {
 
@@ -49,7 +49,7 @@ public class UserController {
 
    @GetMapping("/{userId}/books/to-read")
     public ResponseEntity<Set<Book>> findAllBooksToRead(@PathVariable("userId") Long id) {
-       Set<Book> books = userService.findBooksToBuy(id);
+       Set<Book> books = userService.findBooksToRead(id);
       return ResponseEntity.ok(books);
     }
 }

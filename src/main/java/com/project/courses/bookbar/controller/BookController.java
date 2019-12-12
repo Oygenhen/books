@@ -9,7 +9,7 @@ import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/book")
+@RequestMapping(value = "/api/book")
 @RequiredArgsConstructor
 public class BookController {
 
